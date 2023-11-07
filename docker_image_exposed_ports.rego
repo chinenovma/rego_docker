@@ -21,12 +21,12 @@ allow {
 }
 
 ssh {
-	port = "24/tcp"
+	port = "22/tcp"
 	input.Config.ExposedPorts[port]
 }
 
 telnet {
-	port = "25/tcp"
+	port = "23/tcp"
 	input.Config.ExposedPorts[port]
 }
 
